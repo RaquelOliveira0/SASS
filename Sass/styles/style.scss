@@ -1,0 +1,10 @@
+@import 'variables';
+@import 'header';
+.contact {
+    @include flexCenter(column, #D76D77);
+    @extend header;
+}
+
+h1 {
+    padding-bottom: $padding-10;
+}
